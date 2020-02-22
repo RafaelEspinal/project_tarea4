@@ -15,9 +15,8 @@ namespace Tarea4.Models
         [Range(15, 100)]
         public int Edad { get; set; }
         public int Teléfono { get; set; }
-        [Required(ErrorMessage = "Este campo es requerido.")]
-        [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*",
-         ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
+        
+        [EmailAddress(ErrorMessage = "Email invalido")]
         public int Correo { get; set; }
         public string Género { set; get; }
         public puesto_trabajo trabajo { set; get; }
