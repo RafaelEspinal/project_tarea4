@@ -10,19 +10,19 @@ namespace Tarea4.Controllers
     public class LoginController : Controller
     {
         // GET: Login
-        public ActionResult Index()
+        public ActionResult Formulario()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult Index(datos data, HttpPostedFileBase imagen)
+        public ActionResult Formulario(datos data, HttpPostedFileBase imagen)
         {
             if (ModelState.IsValid)
             {
                 string nombreFoto = imagen.FileName;
 
-                imagen.SaveAs(Server.MapPath("/img/" + nombreFoto));
+                imagen.SaveAs(Server.MapPath("/Content/" + nombreFoto));
 
 
                 @ViewBag.foto = nombreFoto;
@@ -32,7 +32,7 @@ namespace Tarea4.Controllers
             else
             {
 
-                return View("Index");
+                return View("Formulario");
             }
         }
         public ActionResult Resivir(datos data)

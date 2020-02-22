@@ -246,10 +246,10 @@ C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\bin\es\Microsoft.O
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.csprojAssemblyReference.cache
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.csproj.CopyComplete
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.pdb
+<<<<<<< HEAD
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\Tarea4.dll.config
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\Tarea4.dll
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\Tarea4.pdb
@@ -376,3 +376,6 @@ C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\obj\Debug\Tarea
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\obj\Debug\Tarea4.csproj.CopyComplete
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\obj\Debug\Tarea4.dll
 C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\obj\Debug\Tarea4.pdb
+=======
+C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.csprojAssemblyReference.cache
+>>>>>>> 12ba7dc08e91ce048f3a28f9bd54050316e564fd
