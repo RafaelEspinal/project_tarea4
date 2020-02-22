@@ -320,7 +320,7 @@ namespace Tarea4.Controllers
             {
                 return Redirect(returnUrl);
             }
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Formulario", "Login");
         }
 
         internal class ChallengeResult : HttpUnauthorizedResult

@@ -9,16 +9,17 @@ namespace Tarea4.Models
     public class datos
     {
         [Required(ErrorMessage = "Este campo es obligatorio")]
-        public string Nombre { get; set; }
+        public string Nombre { set; get; }
         [Required(ErrorMessage = "Este campo es obligatorio")]
-        public string Apellido { get; set; }
+        public string Apellido { set; get; }
         [Range(15, 100)]
-        public int Edad { get; set; }
-        public int Teléfono { get; set; }
+        public int Edad { set; get; }
+        public string Teléfono { set; get; }
+
         [Required(ErrorMessage = "Este campo es requerido.")]
         [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*",
-         ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
-        public int Correo { get; set; }
+          ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
+        public string Correo { set; get; }
         public string Género { set; get; }
         public puesto_trabajo trabajo { set; get; }
 
