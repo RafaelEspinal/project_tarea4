@@ -379,3 +379,9 @@ C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\obj\Debug\Tarea
 =======
 C:\Users\edwal\OneDrive\Desktop\tarea 4\project_tarea4\Tarea4\obj\Debug\Tarea4.csprojAssemblyReference.cache
 >>>>>>> 12ba7dc08e91ce048f3a28f9bd54050316e564fd
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.DataSet.dll
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.dll
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.pdb
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.xml
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.DataSet.pdb
+C:\Users\Rafael Espinal\source\repositorio\project_tarea4\Tarea4\bin\ExcelDataReader.DataSet.xml
