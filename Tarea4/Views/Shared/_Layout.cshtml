@@ -15,10 +15,32 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark">
 
+<<<<<<< HEAD
             @Html.Partial("_LoginPartial", new { @class = "text-white " })
 
         </nav>
        
+=======
+            @Html.ActionLink("Iniciar sesion", "Login", "Account", new { area = "" }, new { @class = "navbar-brand text-white " })
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <li class="nav-link ">@Html.ActionLink("Inicio", "Formulario", "Login")</li>
+
+                <li class="nav-item">
+                <li class="nav-link ">@Html.ActionLink("Conversión ", "convertirLongitudes", "Conversión")</li>
+
+                <li class="nav-item">
+                <li class="nav-link">@Html.ActionLink("Contacto", "Contact", "Home")</li>
+
+                <li class="nav-item">
+                <li class="nav-link ">  @Html.Partial("_LoginPartial")</li>
+
+            </ul>
+
+
+        </div>
+>>>>>>> 5cda861a13e19d7b037c806a507857061780aa69
         <section class="p-sm-2   style="margin-bottom:0"">
 
             <div id="carousel-example-2" class="carousel slide carousel-fade " data-ride="carousel">
@@ -38,8 +60,8 @@
                             <div class="mask rgba-black-light"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Light mask</h3>
-                            <p>First text</p>
+                            <h3 class="h3-responsive">El Palacio Nacional de la República Dominicana</h3>
+                            <p> Lugar de trabajo del Presidente de la República y sede del Poder Ejecutivo de ese país.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -50,20 +72,35 @@
                             <div class="mask rgba-black-strong"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Strong mask</h3>
-                            <p>Secondary text</p>
+                            <h3 class="h3-responsive">Alcázar de Colón</h3>
+                            <p>
+                                Es un palacio situado en la Ciudad Colonial de Santo Domingo, República Dominicana,<br />
+                                que fue construido sobre un solar cercano a los farallones que miran hacia el río Ozama, concedido a Diego Colón,<br />
+                                hijo primogénito del descubridor de América, Cristóbal Colón, por el rey Fernando el Católico, para que edificara una morada para él y sus descendientes <br />
+                                en la isla La Española, a la cual llegó en 1509 en calidad de gobernador y en donde actualmente funciona el Museo Alcázar de Colón.
+
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
+<<<<<<< HEAD
                             <img class="d-block w-100" src="~/Content/dominicanao.jpg"
                                  alt="Third slide" width="100" height="410">
+=======
+                            <img class="d-block w-100" src="~/Content/rd.jpg"
+                                 alt="Third slide" width="100%" height="410">
+>>>>>>> 5cda861a13e19d7b037c806a507857061780aa69
                             <div class="mask rgba-black-slight"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Slight mask</h3>
-                            <p>Third text</p>
+                            <h3 class="h3-responsive">Ciudad de Santo Domingos</h3>
+                            <p>
+                                En Santo Domingo se encuentran la primera catedral y el primer castillo de América; ambos ubicados <br />
+                                en la Ciudad Colonial  zona declarada como Patrimonio de la Humanidad por la UNESCO. Gracias a esto, la ciudad, <br />
+                                especialmente su Centro Histórico reciben aproximadamente un millón de visitantes internacionales cada año.
+                            </p>
                         </div>
                     </div>
                 </div>

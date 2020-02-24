@@ -6,12 +6,12 @@
     <div class="container container-fluid ">
 
 
-        @using (Html.BeginForm("Formulario", "Login", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form form-group border p-3 my-2  mx-auto d-block ", @style = "width: 69%; background-color: #F8F8F8;" }))
+        @using (Html.BeginForm("Formulario", "Login", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form form-group border p-3 my-2  mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded", @style = "width: 69%; background-color: #F8F8F8;" }))
         {
            
-            <a href="#demo" class="btn btn-primary mx-auto d-block"  data-toggle="collapse">Formulario</a>
+            <h3  class="form form-control text-center text-white bg-primary" >Formulario</h3>
             <hr />
-            <div id="demo" class="collapse">
+            <div >
                 <div class="row ">
                     <div class="form-group  col-sm-6">
                         @Html.LabelFor(nn => nn.Nombre);
