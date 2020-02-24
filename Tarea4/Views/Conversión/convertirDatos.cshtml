@@ -10,7 +10,7 @@
 
     @using (Html.BeginForm("convertirDatos", "Conversión", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
-        <div class="card text-center mx-auto d-block" style="width: 650px">
+        <div class="card text-center mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded" style="width: 650px">
             <div class="card-header">
                 <ul class="nav nav-pills card-header-pills">
                     <li class="nav-item">
@@ -58,6 +58,7 @@
 
                     <div class="col-sm-6 float-left">
                         @Html.DisplayFor(nn => nn.num2, new { @class = "form-control", })
+                        @Html.DisplayFor(nn => nn.Datos2, new { @class = "form-control", })
 
                     </div>
 

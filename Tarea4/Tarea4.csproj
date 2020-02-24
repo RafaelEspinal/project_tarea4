@@ -196,6 +196,7 @@
     <Content Include="Content\dominicana.jpg" />
     <Content Include="Content\dominicanao.jpg" />
     <Content Include="Content\facebook.jpg" />
+    <Content Include="Content\rd.jpg" />
     <Content Include="Content\transferir.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

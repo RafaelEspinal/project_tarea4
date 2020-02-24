@@ -31,12 +31,12 @@ namespace Tarea4.Controllers
             string ver = con.unidades1.ToString() + con.unidades2.ToString();
 
 
-
             switch (ver)
             {
                 //pulgadas    Pulgadas= Centimetro, Metros, Kilometros, Millas ,Pies
                 case "PulgadasCentimetro":
                     con.num2 = con.num1 * 2.54;
+                   
                     break;
 
                 case "PulgadasMetros":
